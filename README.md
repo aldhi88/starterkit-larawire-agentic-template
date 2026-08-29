@@ -1,7 +1,6 @@
 # Starterkit Larawire Agentic Templates
 
-Repository ini menyimpan archive runtime minimum untuk theme open-source yang
-didukung oleh
+Repository ini menyimpan archive runtime minimum untuk theme yang didukung oleh
 [`aldhi88/starterkit-larawire-agentic`](https://github.com/aldhi88/starterkit-larawire-agentic).
 
 Archive di repository ini diunduh otomatis oleh wizard `starter:install`.
@@ -14,7 +13,8 @@ asset manifest package sebelum melakukan perubahan pada project Laravel.
 | Theme | Archive | Lisensi |
 |---|---|---|
 | Tabler | `tabler.zip` | MIT |
+| DashCode | `dashcode.zip` | Commercial; valid vendor license required |
 
 Archive hanya berisi dependency runtime minimum. Demo HTML, source build, dan
-komponen yang tidak digunakan tidak disertakan.
-
+komponen yang tidak digunakan tidak disertakan. Lisensi repository ini tidak
+menggantikan lisensi upstream setiap theme; lihat `THIRD_PARTY_NOTICES.md`.
