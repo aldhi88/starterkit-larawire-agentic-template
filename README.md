@@ -13,8 +13,10 @@ asset manifest package sebelum melakukan perubahan pada project Laravel.
 | Theme | Archive | Lisensi |
 |---|---|---|
 | Tabler | `tabler.zip` | MIT |
-| DashCode | `dashcode.zip` | Commercial; valid vendor license required |
+| DashCode | `dashcode.zip` | Commercial; lisensi dimiliki owner untuk penggunaan internal tim |
 
 Archive hanya berisi dependency runtime minimum. Demo HTML, source build, dan
 komponen yang tidak digunakan tidak disertakan. Lisensi repository ini tidak
-menggantikan lisensi upstream setiap theme; lihat `THIRD_PARTY_NOTICES.md`.
+menggantikan lisensi upstream setiap theme. Archive DashCode disediakan untuk
+instalasi project internal tim yang berada di bawah lisensi owner; lihat
+`THIRD_PARTY_NOTICES.md`.

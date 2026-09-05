@@ -11,7 +11,8 @@ that accompanies `tabler.zip`.
 
 ## DashCode
 
-DashCode is a commercial theme. Installing or using `dashcode.zip` requires a
-valid license obtained from the DashCode vendor. This repository does not grant
-or replace that vendor license. The original HTML demos and source package are
-not included in this runtime archive.
+DashCode is a commercial theme. The repository owner holds the applicable
+vendor license and authorizes this minimal runtime archive for internal team
+projects covered by that license. This repository does not grant a license to
+unrelated third parties or replace the vendor terms. The original HTML demos
+and source package are not included in this runtime archive.
