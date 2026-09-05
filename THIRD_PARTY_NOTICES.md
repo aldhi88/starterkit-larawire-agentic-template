@@ -1,5 +1,13 @@
 # Third-party theme notices
 
+## Vuexy 3.0.0
+
+The owner confirmed a commercial license for personal/internal use on
+2026-09-05. This does not authorize public redistribution. The locally built
+`vuexy.zip` is ignored by Git and must only be supplied to licensed local hosts.
+`VUEXY_SHA256SUMS` identifies the exact local runtime archive. Vendor HTML,
+customizer demos, build sources, and unused plugins are excluded.
+
 The archives in this repository contain only the runtime files required by the
 Laravel starter kit. They do not include vendor demos, build sources, or unused
 components.
