@@ -22,17 +22,17 @@ Vuexy menggunakan source lokal berlisensi, bukan downloader publik. Archive
 Ekstrak archive milik owner ke `theme-intake/vuexy/` pada host lokal sebelum
 memilih Vuexy di installer. Archive berisi `runtime/`; installer memvalidasi
 hash setiap file sebelum publikasi ke `public/assets/vuexy/`. Archive minimum
-ini berisi 10 file, termasuk custom integration pair `css/vuexy.css` dan
+ini berisi 13 file, termasuk custom integration pair `css/vuexy.css` dan
 `js/vuexy.js`. Integrasi package,
 fresh host, kedua layout, dan browser responsive sudah diverifikasi pada
-2026-09-05.
+2026-10-24.
 
 Archive hanya berisi dependency runtime minimum. Demo HTML, source build, dan
 komponen yang tidak digunakan tidak disertakan. Lisensi repository ini tidak
 menggantikan lisensi upstream setiap theme. Archive DashCode disediakan untuk
 instalasi project internal tim yang berada di bawah lisensi owner; lihat
 `THIRD_PARTY_NOTICES.md`. The Vuexy archive was rebuilt and verified against
-the package asset manifest on 2026-09-05; it remains private/local and is not
+the package asset manifest on 2026-10-24; it remains private/local and is not
 an installer download URL.
 
 Semua archive theme menyediakan custom integration pair bernama
@@ -44,3 +44,9 @@ fungsi komponen. Warna mengikuti arti yang konsisten—primary untuk aksi/fokus,
 success untuk status berhasil, info untuk panduan, warning untuk perhatian,
 danger untuk aksi merusak/error, dan secondary untuk metadata netral—dengan
 foreground yang tetap terbaca pada setiap tint.
+
+Adapter palette tetap berada di package canonical pada
+`resources/themes/<theme>/brand-palette.css`, dengan kontrak feedback bersama
+dan tiga warna environment yang sama. Archive tidak membawa konfigurasi warna
+brand project. Runtime Vuexy memuat tiga ilustrasi error native; DashCode memuat
+ilustrasi maintenance serta fallback alert secondary/danger yang sesuai.
